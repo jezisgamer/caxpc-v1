@@ -1,0 +1,20 @@
+sudo pacman install xfce gnome kwrite gdm3
+sh <(curl -L https://nixos.org/nix/install) --daemon
+sudo dpkg-reconfigure gdm3
+sudo pacman -Syu 
+sudo pacman -S thunar
+git clone https://aur.archlinux.org/snapd.git
+cd snapd
+makepkg -si
+sudo pacman -Syu
+sudo pacman -S nordic 
+sudo snap install firefox
+mkdir .themes 
+git clone https://github.com/EliverLara/Sweet.git 
+cd
+wdet https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
+sudo pacman -Syu
+sudo pacman -S jdk-19_linux-x64_bin.deb
+sudo pacman -Syu
+sudo pacman -S qterminal
+reboot
