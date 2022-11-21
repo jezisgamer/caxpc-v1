@@ -4,7 +4,10 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 sudo dpkg-reconfigure gdm3
 sudo dnf update 
 sudo dnf install thunar
-sudo dnf install snap
+sudo dnf update
+sudo dnf install yum
+sudo yum update
+sudo yum install snapd
 sudo dnf update
 sudo dnf install nordic 
 sudo snap install firefox
