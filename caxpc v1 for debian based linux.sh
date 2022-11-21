@@ -5,7 +5,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 sudo dpkg-reconfigure gdm3
 sudo nala update 
 sudo nala install thunar
-sudo nala install snap
+sudo nala install snapd
 sudo nala update
 sudo nala install nordic 
 sudo snap install firefox
