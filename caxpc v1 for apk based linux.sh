@@ -10,7 +10,8 @@ sudo apk update
 sudo apk add nordic 
 sudo apk update
 sudo apk add firefox
-mkdir .themes 
-git clone https://github.com/EliverLara/Sweet.git 
+mkdir .themes
+sudo cd .themes
+git clone https://github.com/EliverLara/Sweet.git
 cd
 reboot
